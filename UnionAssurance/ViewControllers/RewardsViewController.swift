@@ -32,6 +32,8 @@ class RewardsViewController: BaseViewController {
     }
     
     private func setUpView() {
+        rewardTypeSelectionSegmentedControl.backgroundColor = .white
+        rewardTypeSelectionSegmentedControl.tintColor = .white
         rewardTypeSelectionSegmentedControl.selectedSegmentIndex = 0
         rewardTypeSelectionSegmentedControl.sendActions(for: UIControl.Event.valueChanged)
         

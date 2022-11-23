@@ -22,7 +22,6 @@
 		2FBCEEF9292D5B8100EE181D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCEEF8292D5B8100EE181D /* BaseViewController.swift */; };
 		2FBCEEFB292D5BF100EE181D /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCEEFA292D5BF100EE181D /* Reachability.swift */; };
 		2FBCEEFD292D5C3C00EE181D /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCEEFC292D5C3C00EE181D /* ActivityIndicator.swift */; };
-		2FBCEEFF292DE9F400EE181D /* DrawArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCEEFE292DE9F400EE181D /* DrawArc.swift */; };
 		ABD2305872F3AC64C57DF58D /* Pods_UnionAssurance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7765BE70D3796B696C6335C /* Pods_UnionAssurance.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +43,6 @@
 		2FBCEEF8292D5B8100EE181D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		2FBCEEFA292D5BF100EE181D /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		2FBCEEFC292D5C3C00EE181D /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
-		2FBCEEFE292DE9F400EE181D /* DrawArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawArc.swift; sourceTree = "<group>"; };
 		6B97E5DBFB5E27F3DEA3EFC5 /* Pods-UnionAssurance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnionAssurance.debug.xcconfig"; path = "Target Support Files/Pods-UnionAssurance/Pods-UnionAssurance.debug.xcconfig"; sourceTree = "<group>"; };
 		C501B1853C8B191A479DCD00 /* Pods-UnionAssurance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnionAssurance.release.xcconfig"; path = "Target Support Files/Pods-UnionAssurance/Pods-UnionAssurance.release.xcconfig"; sourceTree = "<group>"; };
 		E7765BE70D3796B696C6335C /* Pods_UnionAssurance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnionAssurance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -163,7 +161,6 @@
 			children = (
 				2FBCEEEC292D4FDA00EE181D /* CustomSegmentedControl.swift */,
 				2FBCEEFC292D5C3C00EE181D /* ActivityIndicator.swift */,
-				2FBCEEFE292DE9F400EE181D /* DrawArc.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -325,7 +322,6 @@
 				2FBCEEFD292D5C3C00EE181D /* ActivityIndicator.swift in Sources */,
 				2FBCEEF9292D5B8100EE181D /* BaseViewController.swift in Sources */,
 				2FBCEEED292D4FDA00EE181D /* CustomSegmentedControl.swift in Sources */,
-				2FBCEEFF292DE9F400EE181D /* DrawArc.swift in Sources */,
 				2FBCEEEF292D577400EE181D /* Reward.swift in Sources */,
 				2FBCEEFB292D5BF100EE181D /* Reachability.swift in Sources */,
 				2FBCEEEA292D4F9800EE181D /* UIImage+Extension.swift in Sources */,
@@ -495,7 +491,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -526,7 +522,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

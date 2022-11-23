@@ -28,7 +28,6 @@ class RewardsCollectionViewCell: UICollectionViewCell {
         
         rewardTitleLabel.text = reward.title
         rewardSubtitleLabel.text = reward.sub_title
-        print("\(reward.imageURL ?? URL(string: ""))")
         backgroundImageView.sd_setImage(with: reward.imageURL, completed: nil)
     }
 }
