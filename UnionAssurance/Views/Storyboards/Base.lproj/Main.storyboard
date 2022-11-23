@@ -314,6 +314,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5ja-Ri-b4X"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="huO-DN-inr" firstAttribute="leading" secondItem="5ja-Ri-b4X" secondAttribute="leading" id="CzD-cl-c8u"/>
                             <constraint firstItem="SoE-Lw-FQx" firstAttribute="trailing" secondItem="5ja-Ri-b4X" secondAttribute="trailing" id="Gts-xY-g6q"/>
