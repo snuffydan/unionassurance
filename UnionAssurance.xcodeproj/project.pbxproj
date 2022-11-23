@@ -8,22 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		2FB2CA18292D0ACD0015DC06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB2CA17292D0ACD0015DC06 /* AppDelegate.swift */; };
-		2FB2CA1A292D0ACD0015DC06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB2CA19292D0ACD0015DC06 /* SceneDelegate.swift */; };
-		2FB2CA1C292D0ACD0015DC06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB2CA1B292D0ACD0015DC06 /* ViewController.swift */; };
 		2FB2CA1F292D0ACD0015DC06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FB2CA1D292D0ACD0015DC06 /* Main.storyboard */; };
 		2FB2CA21292D0ACF0015DC06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FB2CA20292D0ACF0015DC06 /* Assets.xcassets */; };
 		2FB2CA24292D0ACF0015DC06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FB2CA22292D0ACF0015DC06 /* LaunchScreen.storyboard */; };
+		2FB2CA39292D3BED0015DC06 /* rewardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FB2CA38292D3BED0015DC06 /* rewardCollectionViewCell.xib */; };
+		2FB2CA3B292D45E60015DC06 /* RewardsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB2CA3A292D45E60015DC06 /* RewardsCollectionViewCell.swift */; };
+		2FBCEEE6292D475F00EE181D /* RewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCEEE5292D475F00EE181D /* RewardsViewController.swift */; };
+		2FBCEEEA292D4F9800EE181D /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCEEE9292D4F9800EE181D /* UIImage+Extension.swift */; };
+		2FBCEEED292D4FDA00EE181D /* CustomSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCEEEC292D4FDA00EE181D /* CustomSegmentedControl.swift */; };
+		2FBCEEEF292D577400EE181D /* Reward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCEEEE292D577400EE181D /* Reward.swift */; };
+		2FBCEEF2292D594F00EE181D /* RewardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCEEF1292D594F00EE181D /* RewardManager.swift */; };
+		2FBCEEF5292D598F00EE181D /* GlobalStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCEEF4292D598F00EE181D /* GlobalStrings.swift */; };
+		2FBCEEF9292D5B8100EE181D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCEEF8292D5B8100EE181D /* BaseViewController.swift */; };
+		2FBCEEFB292D5BF100EE181D /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCEEFA292D5BF100EE181D /* Reachability.swift */; };
+		2FBCEEFD292D5C3C00EE181D /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBCEEFC292D5C3C00EE181D /* ActivityIndicator.swift */; };
+		ABD2305872F3AC64C57DF58D /* Pods_UnionAssurance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7765BE70D3796B696C6335C /* Pods_UnionAssurance.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2FB2CA14292D0ACD0015DC06 /* UnionAssurance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnionAssurance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FB2CA17292D0ACD0015DC06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2FB2CA19292D0ACD0015DC06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2FB2CA1B292D0ACD0015DC06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2FB2CA1E292D0ACD0015DC06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FB2CA20292D0ACF0015DC06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FB2CA23292D0ACF0015DC06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FB2CA25292D0ACF0015DC06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FB2CA38292D3BED0015DC06 /* rewardCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = rewardCollectionViewCell.xib; sourceTree = "<group>"; };
+		2FB2CA3A292D45E60015DC06 /* RewardsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsCollectionViewCell.swift; sourceTree = "<group>"; };
+		2FBCEEE5292D475F00EE181D /* RewardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsViewController.swift; sourceTree = "<group>"; };
+		2FBCEEE9292D4F9800EE181D /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		2FBCEEEC292D4FDA00EE181D /* CustomSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedControl.swift; sourceTree = "<group>"; };
+		2FBCEEEE292D577400EE181D /* Reward.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reward.swift; sourceTree = "<group>"; };
+		2FBCEEF1292D594F00EE181D /* RewardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RewardManager.swift; path = UnionAssurance/Assets.xcassets/RewardManager.swift; sourceTree = SOURCE_ROOT; };
+		2FBCEEF4292D598F00EE181D /* GlobalStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalStrings.swift; sourceTree = "<group>"; };
+		2FBCEEF8292D5B8100EE181D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2FBCEEFA292D5BF100EE181D /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		2FBCEEFC292D5C3C00EE181D /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		6B97E5DBFB5E27F3DEA3EFC5 /* Pods-UnionAssurance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnionAssurance.debug.xcconfig"; path = "Target Support Files/Pods-UnionAssurance/Pods-UnionAssurance.debug.xcconfig"; sourceTree = "<group>"; };
+		C501B1853C8B191A479DCD00 /* Pods-UnionAssurance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnionAssurance.release.xcconfig"; path = "Target Support Files/Pods-UnionAssurance/Pods-UnionAssurance.release.xcconfig"; sourceTree = "<group>"; };
+		E7765BE70D3796B696C6335C /* Pods_UnionAssurance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnionAssurance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABD2305872F3AC64C57DF58D /* Pods_UnionAssurance.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +65,8 @@
 			children = (
 				2FB2CA16292D0ACD0015DC06 /* UnionAssurance */,
 				2FB2CA15292D0ACD0015DC06 /* Products */,
+				B8721153E34B937804DAF660 /* Pods */,
+				33A3D9E74E0C7B0D60130BFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +81,121 @@
 		2FB2CA16292D0ACD0015DC06 /* UnionAssurance */ = {
 			isa = PBXGroup;
 			children = (
+				2FBCEEF0292D593300EE181D /* Network */,
+				2FBCEEE7292D4F6A00EE181D /* Utility */,
+				2FB2CA2D292D3B260015DC06 /* Models */,
+				2FB2CA2C292D3B1D0015DC06 /* ViewControllers */,
+				2FB2CA2B292D3B130015DC06 /* Views */,
 				2FB2CA17292D0ACD0015DC06 /* AppDelegate.swift */,
-				2FB2CA19292D0ACD0015DC06 /* SceneDelegate.swift */,
-				2FB2CA1B292D0ACD0015DC06 /* ViewController.swift */,
-				2FB2CA1D292D0ACD0015DC06 /* Main.storyboard */,
 				2FB2CA20292D0ACF0015DC06 /* Assets.xcassets */,
-				2FB2CA22292D0ACF0015DC06 /* LaunchScreen.storyboard */,
 				2FB2CA25292D0ACF0015DC06 /* Info.plist */,
 			);
 			path = UnionAssurance;
+			sourceTree = "<group>";
+		};
+		2FB2CA2B292D3B130015DC06 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2FB2CA2F292D3B540015DC06 /* XIBs */,
+				2FB2CA2E292D3B2A0015DC06 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2FB2CA2C292D3B1D0015DC06 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2FBCEEE5292D475F00EE181D /* RewardsViewController.swift */,
+				2FBCEEF8292D5B8100EE181D /* BaseViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2FB2CA2D292D3B260015DC06 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2FBCEEEE292D577400EE181D /* Reward.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2FB2CA2E292D3B2A0015DC06 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2FB2CA1D292D0ACD0015DC06 /* Main.storyboard */,
+				2FB2CA22292D0ACF0015DC06 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2FB2CA2F292D3B540015DC06 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				2FB2CA38292D3BED0015DC06 /* rewardCollectionViewCell.xib */,
+				2FB2CA3A292D45E60015DC06 /* RewardsCollectionViewCell.swift */,
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
+		2FBCEEE7292D4F6A00EE181D /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				2FBCEEF3292D598100EE181D /* Globals */,
+				2FBCEEEB292D4FC100EE181D /* Common */,
+				2FBCEEE8292D4F7000EE181D /* Extensions */,
+				2FBCEEFA292D5BF100EE181D /* Reachability.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		2FBCEEE8292D4F7000EE181D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2FBCEEE9292D4F9800EE181D /* UIImage+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2FBCEEEB292D4FC100EE181D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2FBCEEEC292D4FDA00EE181D /* CustomSegmentedControl.swift */,
+				2FBCEEFC292D5C3C00EE181D /* ActivityIndicator.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2FBCEEF0292D593300EE181D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2FBCEEF1292D594F00EE181D /* RewardManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2FBCEEF3292D598100EE181D /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+				2FBCEEF4292D598F00EE181D /* GlobalStrings.swift */,
+			);
+			path = Globals;
+			sourceTree = "<group>";
+		};
+		33A3D9E74E0C7B0D60130BFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7765BE70D3796B696C6335C /* Pods_UnionAssurance.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8721153E34B937804DAF660 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B97E5DBFB5E27F3DEA3EFC5 /* Pods-UnionAssurance.debug.xcconfig */,
+				C501B1853C8B191A479DCD00 /* Pods-UnionAssurance.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FB2CA28292D0ACF0015DC06 /* Build configuration list for PBXNativeTarget "UnionAssurance" */;
 			buildPhases = (
+				05C7ED6B0E86929ACFF22AAE /* [CP] Check Pods Manifest.lock */,
 				2FB2CA10292D0ACD0015DC06 /* Sources */,
 				2FB2CA11292D0ACD0015DC06 /* Frameworks */,
 				2FB2CA12292D0ACD0015DC06 /* Resources */,
+				00795B4F758FB6879FF9AF62 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FB2CA24292D0ACF0015DC06 /* LaunchScreen.storyboard in Resources */,
+				2FB2CA39292D3BED0015DC06 /* rewardCollectionViewCell.xib in Resources */,
 				2FB2CA21292D0ACF0015DC06 /* Assets.xcassets in Resources */,
 				2FB2CA1F292D0ACD0015DC06 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +267,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00795B4F758FB6879FF9AF62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UnionAssurance/Pods-UnionAssurance-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UnionAssurance/Pods-UnionAssurance-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UnionAssurance/Pods-UnionAssurance-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		05C7ED6B0E86929ACFF22AAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnionAssurance-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2FB2CA10292D0ACD0015DC06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FB2CA1C292D0ACD0015DC06 /* ViewController.swift in Sources */,
+				2FBCEEE6292D475F00EE181D /* RewardsViewController.swift in Sources */,
+				2FBCEEF5292D598F00EE181D /* GlobalStrings.swift in Sources */,
+				2FBCEEF2292D594F00EE181D /* RewardManager.swift in Sources */,
+				2FB2CA3B292D45E60015DC06 /* RewardsCollectionViewCell.swift in Sources */,
 				2FB2CA18292D0ACD0015DC06 /* AppDelegate.swift in Sources */,
-				2FB2CA1A292D0ACD0015DC06 /* SceneDelegate.swift in Sources */,
+				2FBCEEFD292D5C3C00EE181D /* ActivityIndicator.swift in Sources */,
+				2FBCEEF9292D5B8100EE181D /* BaseViewController.swift in Sources */,
+				2FBCEEED292D4FDA00EE181D /* CustomSegmentedControl.swift in Sources */,
+				2FBCEEEF292D577400EE181D /* Reward.swift in Sources */,
+				2FBCEEFB292D5BF100EE181D /* Reachability.swift in Sources */,
+				2FBCEEEA292D4F9800EE181D /* UIImage+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +466,14 @@
 		};
 		2FB2CA29292D0ACF0015DC06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B97E5DBFB5E27F3DEA3EFC5 /* Pods-UnionAssurance.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UnionAssurance/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -294,6 +481,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,17 +491,20 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		2FB2CA2A292D0ACF0015DC06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C501B1853C8B191A479DCD00 /* Pods-UnionAssurance.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UnionAssurance/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -321,6 +512,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,7 +522,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

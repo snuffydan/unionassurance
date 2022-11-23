@@ -1,0 +1,6 @@
+framework module Pods_UnionAssurance {
+  umbrella header "Pods-UnionAssurance-umbrella.h"
+
+  export *
+  module * { export * }
+}
